@@ -14,9 +14,11 @@ import me.shedaniel.rei.api.client.registry.display.DisplayRegistry;
 import me.shedaniel.rei.api.client.registry.screen.OverlayDecider;
 import me.shedaniel.rei.api.client.registry.screen.ScreenRegistry;
 import me.shedaniel.rei.api.common.util.EntryStacks;
+import me.shedaniel.rei.plugincompatibilities.api.REIPluginCompatIgnore;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.world.InteractionResult;
 
+@REIPluginCompatIgnore
 public class AdAstraReiPlugin implements REIClientPlugin {
 
     @Override
